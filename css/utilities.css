@@ -1,0 +1,35 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: aqua;
+    color: black;
+}
+.btn-primary:hover{
+    background-color:transparent;
+    color: rgb(161, 98, 98);
+}
+.btn-secondary{
+    background-color: transparent;
+    color: aqua;
+    border-color: aqua;
+    margin-bottom: 6rem;
+    margin-left: 3rem;
+}
+.btn-secondary:hover{
+    background-color: aqua;
+    color: black;
+}
